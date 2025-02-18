@@ -9,9 +9,8 @@ Once installed startup locate:
 -> MySQL (SQL connection)
 And press start within the action column
 
-
-Open the .zip file and move the content(s) to the ‘XAMPP’ file Application, and move it into the ‘htdocs’ folder within ‘XAMPP’.
-
+Locate ‘htdocs’ folder within ‘XAMPP’ file application and create a new file called "AssessmentJob"
+Download the files and move the contents to the file created
 
 Then if the Apache Server is started, go onto a browser and type
 http://localhost/phpmyadmin/ 
