@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head> <!--Calls for the html to refer to style.css and other css styles-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us!</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    
+    <body>
+        <!--Header Section-->
+        <header>
+          <!--Creates a navigation bar-->
+            <div id="navbar" class="obj-width">
+                <a href="../index.php"><img class="logo" src="images/logo.png" alt=""></a>
+    
+                <ul id="menu">
+                    <li><a href="../index.php">Home</a></li>
+                    <li><a href="../jobs/jobpage.php">Browse Jobs</a></li>
+                    <li><a href="../contact/contactpage.php">Contact Us</a></li> 
+					          <button id="w-btn"><a href="../LoginReg/Login.html">Log in!</a></button>
+                </ul>
+    
+                <i id="bar" class='bx bx-menu'></i>
+            </div>
+        </header>
+        <!--Main middle section-->
+        <section class="contact obj-width sec-space extra-space"> <!--Sets the form to be in the middle of the screen-->
+            
+            
+              <form action="Registration.php" method="post"> <!--When the submit button is pressed, it calls for a command to post to the directed link-->
+                  <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input 
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      name="firstName"
+                    /> <!--Type refers to text being either (text, int, bool etc), we use class to style our button (which is controlled by style.css), id is how it is classified when it is sent off, name is how we name it-->
+                  </div>
+                  <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      name="lastName"
+                    /><!--Type refers to text being either (text, int, bool etc), we use class to style our button (which is controlled by style.css), id is how it is classified when it is sent off, name is how we name it-->
+                  </div>
+                  <div class="form-group"> <!--This is a bubble box, in which only one bubble can be filled in-->
+                    <label for="gender">Gender</label>
+                    <div>
+                      <label for="male" class="radio-inline"
+                        ><input
+                          type="radio"
+                          name="gender"
+                          value="m"
+                          id="male"
+                        />Male</label
+                      ><!--Type refers to text being either (text, int, bool etc), we use class to style our button (which is controlled by style.css), id is how it is classified when it is sent off, name is how we name it-->
+                      <label for="female" class="radio-inline"
+                        ><input
+                          type="radio"
+                          name="gender"
+                          value="f"
+                          id="female"
+                        />Female</label
+                      ><!--Type refers to text being either (text, int, bool etc), we use class to style our button (which is controlled by style.css), id is how it is classified when it is sent off, name is how we name it-->
+                      <label for="others" class="radio-inline"
+                        ><input
+                          type="radio"
+                          name="gender"
+                          value="o"
+                          id="others"
+                        />Others</label
+                      ><!--Type refers to text being either (text, int, bool etc), we use class to style our button (which is controlled by style.css), id is how it is classified when it is sent off, name is how we name it-->
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                    /><!--Type refers to text being either (text, int, bool etc), we use class to style our button (which is controlled by style.css), id is how it is classified when it is sent off, name is how we name it-->
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      name="password"
+                    /><!--Type refers to text being either (text, int, bool etc), we use class to style our button (which is controlled by style.css), id is how it is classified when it is sent off, name is how we name it-->
+                  </div>
+                  <div class="form-group">
+                    <label for="number">Phone Number</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="number"
+                      name="number"
+                    /><!--Type refers to text being either (text, int, bool etc), we use class to style our button (which is controlled by style.css), id is how it is classified when it is sent off, name is how we name it-->
+                  </div>
+                  <input type="submit" class="btn btn-success" /> <!--When the button is pressed, it calls for the form to be sent off-->
+                </form>
+            </div>
+          </div>
+        </section>
+    
+        <!--Footer Section-->
+        <!--Creates a footer with links to external websites-->
+        <footer class="footer">
+            <div class="obj">
+                <div class="top">
+                    <div>
+                      <!--Creates a button with logos with links attached-->
+                        <a href="https://www.instagram.com/reel/DEMJWowMfMs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="https://www.instagram.com/reel/DEMJWowMfMs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><i class='bx bxl-behance'></i></a>
+                        <a href="https://www.instagram.com/reel/DEMJWowMfMs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><i class='bx bxl-facebook-square'></i></a>
+                        <a href="https://www.instagram.com/reel/DEMJWowMfMs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+
