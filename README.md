@@ -10,7 +10,8 @@ Once installed startup locate:
 And press start within the action column
 
 Locate ‘htdocs’ folder within ‘XAMPP’ file application and create a new file called "AssessmentJob"
-Download the files and move the contents to the file created
+
+Download the files and move the contents to the file created EXCEPT for AssessmentJob.sql
 
 Then if the Apache Server is started, go onto a browser and type
 http://localhost/phpmyadmin/ 
