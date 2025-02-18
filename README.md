@@ -17,7 +17,7 @@ http://localhost/phpmyadmin/
 
 Once entered, on the left side, click on “New” and create a new database with the name “AssessmentJob”
 
-Within AssessmentJob import the AssessmentJob.db and press import
+Within AssessmentJob import the AssessmentJob.sql and press import
 
 Then on a browser, in the search link type
 localhost/AssessmentJob/index.php
